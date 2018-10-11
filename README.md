@@ -22,6 +22,9 @@ sh install.sh
 ```
 ####It is all. After installing you can send requests into api pages. Web server will be run automatically
 
+For test query i must send additional headers:
+auth_token with value zcas1324123asdasd123112
+
 * <http://localhost:8000/articles.json> - start articles page
 * <http://localhost:8000/tags.json>  - start tags page 
 
