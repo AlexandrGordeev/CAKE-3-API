@@ -30,3 +30,4 @@ bin/cake migrations seed
 
 echo -e "${GREEN}Done, run the server at http://0.0.0.0:8000/${NC}"
 
+bin/cake server -H 0.0.0.0 -p 8000
